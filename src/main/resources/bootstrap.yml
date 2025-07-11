@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-cloud-config-client
+  profiles:
+    active: local
+  cloud:
+    config:
+      uri: http://localhost:8888
+  config:
+    import: http://localhost:8888
