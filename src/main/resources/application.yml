@@ -1,2 +1,8 @@
 application:
   name : NewApplication
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
